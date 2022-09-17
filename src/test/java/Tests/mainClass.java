@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import static webPages.selectItemPage.dressOrangeButton;
 
-public class mainClass extends extentReport{
+public class mainClass extends superClass {
 
     @Test(priority=1)
     public void signUpTestCase(Method method) {

@@ -15,7 +15,7 @@ import webPages.signUpPage;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class extentReport {
+public class superClass {
 
     public static WebDriver driver;
     public String baseURL = "http://automationpractice.com/index.php";

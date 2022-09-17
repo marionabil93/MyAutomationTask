@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Tests.listener"></listener>
+    </listeners>
+    <test name="All Test Suite" thread-count="3" parallel="tests" verbose="2" preserve-order="true">
+        <parameter name="browser" value="Chrome"/>
+    <classes>
+        <class name="Tests.mainClass">
+        <methods>
+            <include name="signUpTestCase"/>
+            <include name="loginWithNewUser"/>
+            <include name="selectItemTestCase"/>
+        </methods>
+    </class>
+    </classes>
+    </test>
+</suite>
+

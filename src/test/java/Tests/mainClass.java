@@ -48,6 +48,7 @@ public class mainClass extends superClass {
         test.log(Status.PASS,descriptiveTestNameTC1);
     }
 
+
     @Test(priority = 2)
     public void loginWithNewUser(Method method){
         driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);

@@ -1,6 +1,6 @@
-<<<<<<< HEAD
-# automationpractice
-=======
+
+# AutomationPractice
+
 # My Store
 **AutomationPractice**
 
@@ -64,17 +64,12 @@ Creating Automation Scripts and Extent Reports To Test The Happy scenario , Test
 
 After Download The File on your PC :
 1- Open your The Automation tool.
-2- Click on ”File” → Tab/ Click on “Open” →  Choose
-The File Path (That you saved the Project).
-3- From Structure of Project , Click on Folder (Test)→
-Click on Folder (Java)→ Click on Folder (tests)→
-Insert  in the Main Class.
-3- In Test Case is taged with annotations (@test) , Right Click → Click on (Run ‘testScenario()’).
+
+2- Click on ”File” → Tab/ Click on “Open” →  Choose The File Path (That you saved the Project).
+
+3- From Structure of Project , Click on Folder (Test)→ Click on Folder (Java)→ Click on Folder (tests)→ Insert  in the Main Class.
+
+4- In Test Case is taged with annotations (@test).
+
 4- Check the Output .
     
-
-    
-
-
-
->>>>>>> github/master
